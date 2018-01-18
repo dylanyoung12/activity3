@@ -1,0 +1,85 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  background-color: white;
+  color: red;
+  font-family: "Helvetica", sans-serif;
+  font-size: xx-large;
+  border-left: 10px solid gray;
+  border-left-color: gray;
+}
+
+h2 {
+  background-color: white;
+  color: green;
+  font-family: "Helvetica", sans-serif;
+  font-style: italic;
+  font-size: x-large;
+  border: 4px dotted orange;
+}
+
+h3 {
+  color: purple;
+  font-family: "Helvetica", sans-serif;
+  font-style: italic;
+  font-size: x-large;
+}
+
+p {
+  background-color: lightgreen;
+  font-family: "Times", serif;
+}
+
+img {
+  border: 5px solid green;
+  border-radius: 5px;
+}
+
+ul {
+  border: 3px solid darkblue;
+  border-radius: 5px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+section {
+  display: flex;
+}
+
+aside {
+  flex: 1;
+}
+
+article {
+  flex: 4;
+}
