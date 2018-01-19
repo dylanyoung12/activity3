@@ -20,6 +20,7 @@ h2 {
   font-weight: bold;
   font-size: x-large;
   border: 4px dotted orange;
+  width: fit-content;
 }
 
 h3 {
@@ -32,6 +33,7 @@ h3 {
 p {
   background-color: lightgreen;
   font-family: "Times", serif;
+  width: fit-content;
 }
 
 img {
