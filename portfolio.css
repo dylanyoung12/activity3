@@ -7,6 +7,7 @@ h1 {
   color: red;
   font-family: "Helvetica", sans-serif;
   font-size: xx-large;
+  font-weight: bold;
   border-left: 10px solid gray;
   border-left-color: gray;
 }
@@ -16,6 +17,7 @@ h2 {
   color: green;
   font-family: "Helvetica", sans-serif;
   font-style: italic;
+  font-weight: bold;
   font-size: x-large;
   border: 4px dotted orange;
 }
